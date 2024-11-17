@@ -1,0 +1,291 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+/* CSS for menu*/
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+.menu ul li a:hover{
+    color: #ff4757;
+}
+.tbl-full{
+    width: 100%;
+}
+.tbl-40{
+    width: 40%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color:#3742fa;
+}
+
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color:#2ed573;
+}
+
+.btn-danger{
+    background-color: #ff6b81;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color:#ff4757;
+}
+
+.btn-useless{
+    background-color: #3b3b3b;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-useless:hover{
+    background-color:#000000;
+}
+
+.success{
+    color: #2ed573;
+}
+
+.error{
+    color: #ff4757;
+}
+
+.primary{
+    color: #015db9;
+
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+/*CSS for main-content*/
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 12%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    opacity: 70%;
+}
+
+/* CSS for footer*/
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
+
+/* css for bg*/
+
+.manage-restaurant-bg-img{
+    background-image: url(../images/restaurant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.login-bg-img{
+    background-image: url(../images/login-bg.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* CSS FOR LOGIN */
+.login{
+    border: 1px solid gray;
+    width: 25%;
+    margin: 5% auto;
+    padding: 5%;
+}
+
+/*css for display category*/
+.img-square{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.img-bg-admin{
+    background-image: url(../images/admin-bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.login-admin-bg{
+    background-image: url(../images/admin-bg.jpg);
+    /* Add the blur effect */
+    /* filter: blur(1px); */
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.text-white-black-stroke{
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-size:  40px;
+}
+.text-white{
+    color: white;
+}
+
+.light-table{
+    background-color: white;
+    border-color: black;
+    border-width: 1px;
+    opacity: 80%;
+}
+
+.light-table-rest{
+    background-color: whitesmoke;
+    border-color: black;
+    border-width: 1px;
+    opacity: 70%;
+}
+
+.light-image{
+    opacity: 70%;
+    filter: blur(1px);
+}
+
+/*rider*/
+.rider-sign-in{
+    background-image: url(../images/rider-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.text-with-stroke-small{
+    font: bolder;
+    color: black;
+    -webkit-text-fill-color: crimson; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: gray;
+    font-size:  30px;
+    
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rider-profile-name{
+    color: black;
+    -webkit-text-fill-color: rgb(252, 247, 248); /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+
+.tbl-bg{
+    background-color: black;
+    opacity : 70%;
+    border-radius: 15px;
+}
+
+.tbl-40{
+    width: 40%;
+}
+
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    opacity: 60%;
+}
+
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.text-white-black-stroke{
+    color: black;
+    -webkit-text-fill-color: rgb(252, 247, 248); /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.text-white-black-stroke-rest{
+    color: black;
+    -webkit-text-fill-color: rgb(252, 247, 248); /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
